@@ -12,22 +12,14 @@ File Organizer is a simple command-line application written in Rust that organiz
 
 1. Install Rust on your machine by following the instructions on the [official website](https://www.rust-lang.org/tools/install).
 
-2. Clone this repository to your local machine:
+2. Clone this repository to your local machine: ```git clone https://github.com/your_username/file_organizer.git```
 
-```git clone https://github.com/your_username/file_organizer.git```
+3. Navigate to the project directory: ```cd file_organizer```
 
-3. Navigate to the project directory:
+4. Compile the project with optimizations: ```cargo build --release```
 
-```cd file_organizer```
-
-4. Compile the project with optimizations:
-```cargo build --release```
-
-5. Run the application, providing the path to the source directory you want to organize:
-```.\target\release\file_organizer.exe <source_directory>```
-
-
-Replace `<source_directory>` with the path to the directory containing the files you want to organize.
+5. Run the application, providing the path to the source directory you want to organize: ```.\target\release\file_organizer.exe <source_directory>```
+   Replace `<source_directory>` with the path to the directory containing the files you want to organize.
 
 ## Supported File Types
 
